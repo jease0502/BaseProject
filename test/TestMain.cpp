@@ -3,6 +3,7 @@
 
 void testGetTriangleType() {
     assert(getTriangleType(3, 4, 5) == 0);
+    assert(jease(5, 2) == 3);
 }
 
 int main() {
