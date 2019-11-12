@@ -1,6 +1,6 @@
 # 軟體工程作業-祖名
-[![Build Status](https://travis-ci.org/1081-FCU-SE/BaseProject.svg?branch=master)](https://travis-ci.org/1081-FCU-SE/BaseProject)
-[![codecov](https://codecov.io/gh/1081-FCU-SE/BaseProject/branch/master/graph/badge.svg)](https://codecov.io/gh/1081-FCU-SE/BaseProject)
+[![Build Status](https://travis-ci.org/jease0502/BaseProject.svg?branch=master)](https://travis-ci.org/jease0502/BaseProject)
+[![codecov](https://codecov.io/gh/jease0502/BaseProject/branch/master/graph/badge.svg)](https://codecov.io/gh/jease0502/BaseProject)
 
 
 ## Structure
