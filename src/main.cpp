@@ -7,6 +7,7 @@ int main() {
     printf("5 + 2 = %d\n", addNumber(5, 2));
     printf("%d\n", getTriangleType(3, 4, 5));
     printf("%d\n", jease(5 , 2));
+    printf("%d\n", Yukari(8 , 7));
     return 0;
 }
 #endif // TEST
@@ -15,6 +16,9 @@ int addNumber(int a, int b) {
     return a + b;
 }
 
+int Yukari(int a,int b){
+    return a + b;
+}
 int jease(int a , int b){
     return a - b;
 }
