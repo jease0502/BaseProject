@@ -22,12 +22,4 @@
 
 
 # 技術細節
-## Test 組態
-* 編譯器選項：`-ftest-coverage -fprofile-arcs`
-* 連結器選項：`-lgcov --coverage`
-* 前置處理器定義：`TEST`
 
-## Test Code 寫法
-* 主程式 `src/main.cpp` 的 main function 要用 `#ifndef TEST`、`#endif` 包裹
-* 測試的 code 請寫在 `test/TestMain.cpp`
-* `test/TestMain.cpp` 如果要呼叫 `src/main.cpp` 的 function，請記得在 header (`src/main.h`) 裡定義 function
