@@ -9,7 +9,7 @@ mysqli_select_db($con,$db_name);
 
 $uid = $_GET["uid"];
 $list = $_GET["list"];
-$date = $_GET["date"]
+$date = $_GET["date"];
 
 //本帳號	,內容,日期,時間,地點
 

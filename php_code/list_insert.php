@@ -8,8 +8,8 @@ $con = mysqli_connect($db_host, $db_user, $db_pass);
 mysqli_select_db($con,$db_name);
 
 $uid = $_GET["uid"];
-$list = $_Get["list"]
-$date = $_GET["date"]
+$list = $_Get["list"];
+$date = $_GET["date"];
 
 //從app get uid and pwd
 $sql_query =  "Insert INTO 提醒 VALUES ('$uid','$list','$date')";

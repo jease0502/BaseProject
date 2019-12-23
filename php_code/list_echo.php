@@ -8,7 +8,7 @@ $con = mysqli_connect($db_host, $db_user, $db_pass);
 mysqli_select_db($con,$db_name);
 
 $uid = $_GET["uid"];
-$date = $_GET["date"]
+$date = $_GET["date"];
 
 //本帳號
 
